@@ -16,6 +16,13 @@ public class Pessoa {
         this.nome = nome;
         this.profissao = profissao;
     }
+
+    public Pessoa(int id, String nome, String profissao) {
+        this.id = id;
+        this.nome = nome;
+        this.profissao = profissao;
+    }
+    
     
     public int getId() {
         return id;
